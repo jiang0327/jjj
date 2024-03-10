@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Changsha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Changsha</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Discover Changsha</h1>
+            <p>Explore the heart of Hunan Province and experience the vibrant culture of Changsha.</p>
+        </section>
+        <section id="about">
+            <h2>About Changsha</h2>
+            <p>Changsha, the capital city of Hunan Province, is rich in history, culture, and culinary delights. Discover its ancient landmarks, lush mountains, and bustling night markets.</p>
+        </section>
+        <section id="attractions">
+            <h2>Featured Attractions</h2>
+            <!-- Example attraction -->
+            <div class="attraction">
+                <h3>Yuelu Mountain</h3>
+                <p>Experience the natural beauty and historical significance of Yuelu Mountain, a must-visit for any traveler to Changsha.</p>
+            </div>
+            <!-- Additional attractions can be added here -->
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information about Changsha and travel inquiries, please contact us at info@discoverchangsha.com.</p>
+        </section>
+    </footer>
+</body>
+</html>
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
