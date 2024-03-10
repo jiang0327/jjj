@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Changsha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Changsha</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Discover Changsha</h1>
+            <p>Explore the heart of Hunan Province and experience the vibrant culture of Changsha.</p>
+        </section>
+        <section id="about">
+            <h2>About Changsha</h2>
+            <p>Changsha, the capital city of Hunan Province, is rich in history, culture, and culinary delights. Discover its ancient landmarks, lush mountains, and bustling night markets.</p>
+        </section>
+        <section id="attractions">
+            <h2>Featured Attractions</h2>
+            <!-- Example attraction -->
+            <div class="attraction">
+                <h3>Yuelu Mountain</h3>
+                <p>Experience the natural beauty and historical significance of Yuelu Mountain, a must-visit for any traveler to Changsha.</p>
+            </div>
+            <!-- Additional attractions can be added here -->
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information about Changsha and travel inquiries, please contact us at info@discoverchangsha.com.</p>
+        </section>
+    </footer>
+</body>
+</html>
